@@ -558,6 +558,7 @@ footer{
 @media (max-width: 768px) {
     html {
         font-size: 55%;
+        width:100%;
     }
 
     header .fa-bars {
