@@ -11,7 +11,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular weight */
     font-style: normal;
-    text-transform: capitalize;
+    text-transform: none;
     text-decoration: none;
     outline: none;
     margin: 0;
@@ -528,6 +528,7 @@ span{
         resize: none;
  }
 
+
  .contact .row .form-container button{
     height: 4rem;
     width: 20rem;
@@ -546,6 +547,12 @@ span{
     border: .2rem solid var(--pink);
  }
 
+footer{
+    color: var(--pink);
+    font-size: 1.9rem;
+    padding: 1.5rem .5rem;
+    text-align: center;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
